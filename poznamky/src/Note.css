@@ -1,0 +1,68 @@
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.note-form {
+  margin-bottom: 20px;
+}
+
+.note-form input[type="text"] {
+  padding: 10px;
+  width: 95%;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.note-form button {
+  padding: 10px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  border-radius: 55px;
+  cursor: pointer;
+}
+
+.note-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.note {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(129,23,229,1) 94%);
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.note p {
+  margin: 0;
+}
+
+.note button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note button:hover {
+  background-color: #c82333;
+}
+
+.note-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

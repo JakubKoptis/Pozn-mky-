@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Notes App</h1>
+      <h1>Poznámky👩🏼‍🏫</h1>
       <NoteForm addNote={addNote} />
       <NoteList notes={notes} deleteNote={deleteNote} />
     </div>
@@ -24,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+
