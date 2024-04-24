@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './NoteForm.css';
 
 function NoteForm({ addNote }) {
   const [text, setText] = useState('');
@@ -18,8 +17,8 @@ function NoteForm({ addNote }) {
 
   return (
     <form onSubmit={handleSubmit} className="note-form">
-      <input type="text" value={text} onChange={handleChange} placeholder="Enter note..." />
-      <button type="submit">Add Note</button>
+      <input type="text" value={text} onChange={handleChange} placeholder="Zadejte vaši poznámku..." />
+      <button type="submit">Přidat Poznámku</button>
     </form>
   );
 }
